@@ -1,0 +1,86 @@
+
+
+.html, body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login-area{
+    display: flex;
+    height: 100%;
+    
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card{
+    
+    margin: 2vh;
+    padding: 5vh;
+    
+    transition: 8s box-shadow ease;
+    
+}
+.card:hover{
+    box-shadow: 0px 0px 100vh 100vh rgb(227, 255, 185);
+}
+
+.email-text{
+    
+}
+
+.password-text{
+    
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    
+    border: none;
+    background-color: rgb(232, 232, 232);
+    outline: 0px solid white;
+    padding: 0.5rem;
+    margin-bottom: 1vh;
+    transition: 0.1s all ease;
+    
+}
+
+.email-input:hover{
+    outline: 2px solid rgb(156, 255, 7);
+}
+
+.email-input::placeholder{
+    
+}
+
+.password-input:hover{
+    outline: 2px solid rgb(156, 255, 7);
+}
+
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn > button{
+    border: none;
+    outline: 0px solid white;
+    color: rgb(0, 0, 0);
+    background-color: rgb(232, 232, 232);
+    padding: 0.5em;
+    margin-top: 0.3em;
+    transition: 0.1s all ease;
+}
+
+.btn > button:hover{
+    outline: 2px solid rgb(156, 255, 7);
+}
