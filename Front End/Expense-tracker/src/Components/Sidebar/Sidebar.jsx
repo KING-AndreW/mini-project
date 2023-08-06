@@ -17,6 +17,7 @@ const Sidebar = () => {
           <SidebarElement name={"Home"} />
           <SidebarElement name={"Account"} />
           <SidebarElement name={"Summary"} />
+          <SidebarElement name={"Log Out"}/>
           <SidebarElement name={"Delete My Data"} />
         </div>
       </div>

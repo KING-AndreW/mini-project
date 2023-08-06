@@ -5,7 +5,7 @@ const SidebarElement = (props) => {
     const name = props.name
     return (
     <>
-      <div className="element">{name}   </div>
+      <div className="element">{name}</div>
     </>
   );
 };

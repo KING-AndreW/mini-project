@@ -7,10 +7,14 @@ const Dashboard = () => {
 
   return (
     <>
-      <Sidebar show={showSidebar} />
+      <Sidebar />
+      <div className="main-area">
 
-      <div>Here's the dashboard</div>
-      
+      <div className="main-heading">
+        <h1>Dashboard</h1>
+      </div>
+
+      </div>
     </>
   );
 };
