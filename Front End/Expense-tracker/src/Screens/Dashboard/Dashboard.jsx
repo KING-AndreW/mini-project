@@ -40,6 +40,7 @@ const Dashboard = () => {
           </div>
           <div className="overview-card">
             <CardItem amount={"5000"} text={"Budget"}/>
+            <CardItem amount={"25000"} text={"Expended"}/>
 
           </div>
         </div>

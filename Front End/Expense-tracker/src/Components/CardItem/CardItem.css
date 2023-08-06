@@ -3,20 +3,28 @@
 .dashboard-card{
     display: flex;
     flex-direction: column;
-    margin: 3vh;
-    outline: 1px solid purple;
+    margin: 1vh;
+    /* outline: 1px solid purple; */
     border-radius: 1vh;
+    background-color: rgb(242, 242, 242)
+    
+    
 }
 
 .card-amount{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
     font-size: 5vh ;
     margin-bottom: 0%;
+    margin-top: 5%;
+    
+    
 }
 
 .card-text{
-    outline: 1px solid green;
+    /* outline: 1px solid green; */
     font-size: 3vh;
+    margin-top: 0%;
+    
     font-family: 'Courier New', Courier, monospace;
 }
