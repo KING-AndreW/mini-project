@@ -13,8 +13,6 @@ body {
    
 }
 
-
-
 .login-area {
     display: flex;
     justify-self: center;
@@ -31,10 +29,8 @@ body {
     padding: 4vw;
     width: 30%;
     align-self: center;
-    
 
     transition: 8s all ease;
-    
 
 }
 
@@ -42,8 +38,6 @@ body {
     background-color: white;
     box-shadow: 0px 0px 100vh 100vh rgb(227, 255, 185);
 }
-
-
 
 .input-field {
     display: flex;
@@ -67,11 +61,9 @@ input {
     outline: 2px solid rgb(156, 255, 7);
 }
 
-
 .password-input:hover {
     outline: 2px solid rgb(156, 255, 7);
 }
-
 
 .btn {
     display: flex;

@@ -1,0 +1,22 @@
+
+
+.dashboard-card{
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+    outline: 1px solid purple;
+    border-radius: 1vh;
+}
+
+.card-amount{
+    outline: 1px solid red;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+    font-size: 5vh ;
+    margin-bottom: 0%;
+}
+
+.card-text{
+    outline: 1px solid green;
+    font-size: 3vh;
+    font-family: 'Courier New', Courier, monospace;
+}
