@@ -1,0 +1,76 @@
+:root {
+    --gradient: linear-gradient(45deg, rgb(217, 255, 0), rgb(120, 255, 120), rgb(255, 190, 12));
+}
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.hero-section {
+    display: flex;
+    
+    height: 40vh;
+    width: inherit;
+    background-image: var(--gradient);
+    background-size: 500%;
+    /* border: 1px solid red; */
+    animation: background-animation 15s infinite alternate;
+}
+
+.cash-image{
+    flex: 2;
+    align-items: center;
+    
+}
+.cash-image > img{
+
+    object-fit: cover;
+    animation: cash-bobbing-animation 3s infinite alternate;
+}
+
+@keyframes background-animation {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: right;
+    }
+}
+
+@keyframes cash-bobbing-animation {
+    0%{
+        transform: translateY(-20px);
+    }100%{
+        transform: translateY(0px);
+    }
+}
+
+
+.hero-text {
+    flex: 4;
+    padding: 1vw;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+.hero-text > h1 {
+    font-size: 5rem;
+    text-indent: 5vw;
+    text-align: left;
+    padding-top: 6vh;
+}
+
+.hero-text > h2 {
+    font-size: 3rem;
+    padding: 0.8vw;
+    text-indent: 5vw;
+    text-align: left;
+}

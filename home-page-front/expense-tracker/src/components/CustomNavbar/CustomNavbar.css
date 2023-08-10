@@ -1,0 +1,54 @@
+:root{   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    
+    background-color: rgb(250, 250, 250);
+    padding: 2vh;
+    position: sticky;
+    max-height: 4vh;
+    
+
+    
+    /* border: 1px solid red; */
+    
+}
+
+.company-name{ 
+    flex: 2;
+    font-weight: 700;
+    font-size: 3vh;
+}
+
+.nav-bar-elements{
+    flex: 1;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex: 1vw;
+    
+}
+
+.nav-bar-elements > *{
+    
+    background-color: transparent;
+    padding: 3vh;
+    align-self: center;
+    text-align: center;
+    font-weight: 600;
+    /* border: 1px solid red; */
+    transition: all 0.3s ease; 
+     
+
+}
+
+.nav-bar-elements > *:hover{
+    box-shadow: 0px 0px 2px;
+    background-color: rgb(238, 239, 240);
+    border-radius: 2px;
+    
+}
+
+
